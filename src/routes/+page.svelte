@@ -4,6 +4,7 @@
 	import { page } from '$app/stores';
 	import Ex002DataBehind from '$lib/components/examples/Ex002DataBehind.svelte';
 	import Ex003IntervalCount from '$lib/components/examples/Ex003IntervalCount.svelte';
+	import Ex004UpdateArray from '$lib/components/examples/Ex004UpdateArray.svelte';
 </script>
 
 <main class="p-6">
@@ -20,5 +21,9 @@
 
 	<Example title="Test 003">
 		<Ex003IntervalCount/>
+	</Example>
+
+	<Example title="Test 004", link="">
+		<Ex004UpdateArray/>
 	</Example>
 </main>
