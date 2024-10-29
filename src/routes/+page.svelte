@@ -10,6 +10,7 @@
 
 <main class="p-6">
 	<h1 class="text-3xl">sveltekit5-showcase</h1>
+	<p>[<a href="nnn" target="_blank" class="underline">repo</a>] [<a href="nnn" target="_blank" class="underline">live site</a>]</p>
 
 	<Example
 		title="Test 001"
