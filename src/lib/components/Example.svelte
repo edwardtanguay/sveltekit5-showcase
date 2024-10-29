@@ -3,9 +3,10 @@
 
 	export let title = 'nnn';
 	export let url = '';
+	export let publish = true
 </script>
 
-{#if PUBLIC_SITE_ENV === 'develop'}
+{#if PUBLIC_SITE_ENV === 'develop' || publish}
 	<fieldset
 		class="mt-5 flex h-fit w-fit flex-col justify-center rounded border border-[#00505783] px-5 pb-3 shadow-md shadow-gray-500"
 	>

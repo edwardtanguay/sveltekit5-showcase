@@ -10,7 +10,15 @@
 
 <main class="p-6">
 	<h1 class="text-3xl">sveltekit5-showcase</h1>
-	<p>[<a href="nnn" target="_blank" class="underline">repo</a>] [<a href="nnn" target="_blank" class="underline">live site</a>]</p>
+	<p>
+		[<a
+			href="https://github.com/edwardtanguay/sveltekit5-showcase"
+			target="_blank"
+			class="underline">repo</a
+		>] [<a href="https://sveltekit5-showcase.vercel.app" target="_blank" class="underline"
+			>live site</a
+		>]
+	</p>
 
 	<Example
 		title="Test 001"
