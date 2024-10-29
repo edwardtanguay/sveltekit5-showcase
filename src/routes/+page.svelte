@@ -5,6 +5,7 @@
 	import Ex002DataBehind from '$lib/components/examples/Ex002DataBehind.svelte';
 	import Ex003IntervalCount from '$lib/components/examples/Ex003IntervalCount.svelte';
 	import Ex004UpdateArray from '$lib/components/examples/Ex004UpdateArray.svelte';
+	import { PUBLIC_SITE_ENV } from '$env/static/public';
 </script>
 
 <main class="p-6">
@@ -20,7 +21,10 @@
 	<Example title="Test 002">
 		<Ex002DataBehind />
 	</Example>
-	<div class="mt-4">{@html $page.data.content}</div>
+
+	{#if PUBLIC_SITE_ENV === 'develop'}
+		<div class="mt-4">{@html $page.data.content}</div>
+	{/if}
 
 	<Example
 		title="Test 003"
