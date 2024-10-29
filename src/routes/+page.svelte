@@ -10,7 +10,10 @@
 <main class="p-6">
 	<h1 class="text-3xl">sveltekit5-showcase</h1>
 
-	<Example title="Test 001" url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex001Button.svelte">
+	<Example
+		title="Test 001"
+		url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex001Button.svelte"
+	>
 		<Ex001Button />
 	</Example>
 

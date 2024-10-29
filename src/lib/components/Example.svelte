@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { PUBLIC_SITE_ENV } from '$env/static/public';
+
 	export let title = 'nnn';
 	export let url = '';
 </script>
@@ -7,6 +9,7 @@
 	class="mt-5 flex h-fit w-fit flex-col justify-center rounded border border-[#00505783] px-5 pb-3 shadow-md shadow-gray-500"
 >
 	<legend class="font-mono text-[#005057ab]">{title} </legend>
+	[{PUBLIC_SITE_ENV}]
 	<slot />
 	{#if url !== ''}
 		<p class="mt-1 flex justify-center font-mono text-xs">
