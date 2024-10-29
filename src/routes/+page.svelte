@@ -27,7 +27,7 @@
 		<Ex001Button />
 	</Example>
 
-	<Example title="Test 002">
+	<Example title="Test 002" publish={false}>
 		<Ex002DataBehind />
 	</Example>
 
