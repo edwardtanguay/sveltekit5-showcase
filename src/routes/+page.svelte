@@ -10,20 +10,26 @@
 <main class="p-6">
 	<h1 class="text-3xl">sveltekit5-showcase</h1>
 
-	<Example title="Test 001">
+	<Example title="Test 001" url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex001Button.svelte">
 		<Ex001Button />
 	</Example>
 
 	<Example title="Test 002">
-		<Ex002DataBehind/>
+		<Ex002DataBehind />
 	</Example>
 	<div class="mt-4">{@html $page.data.content}</div>
 
-	<Example title="Test 003">
-		<Ex003IntervalCount/>
+	<Example
+		title="Test 003"
+		url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex003IntervalCount.svelte"
+	>
+		<Ex003IntervalCount />
 	</Example>
 
-	<Example title="Test 004", link="">
-		<Ex004UpdateArray/>
+	<Example
+		title="Test 004"
+		url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex004UpdateArray.svelte"
+	>
+		<Ex004UpdateArray />
 	</Example>
 </main>

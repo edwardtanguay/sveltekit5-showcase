@@ -1,7 +1,6 @@
 <script lang="ts">
 	let count = $state(5);
 	let millis = $state(1000);
-	let nums: number[] = [];
 
 	$effect(() => {
 		const interval = setInterval(() => count++, millis);
@@ -15,6 +14,4 @@
 	<p class="mb-1 text-sm">wait {millis / 1000} second{millis === 1000 ? '' : 's'}</p>
 	<button class="mb-1 w-full" onclick={() => (millis = millis * 2)}>slower</button>
 	<button class="mb-1 w-full" onclick={() => (millis = millis / 2)}>faster</button>
-	<button class="mb-1 w-full" onclick={() => (nums.push(999))}>add number</button>
-	<p>Numbers: {nums.join(',')}</p>
 </section>
