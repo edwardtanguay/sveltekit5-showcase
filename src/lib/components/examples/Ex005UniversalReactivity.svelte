@@ -1,7 +1,9 @@
 <script lang="ts">
-	const message = 'testing';
+	import { createUser } from '$lib/state/createUser.svelte';
+
+	let user = createUser();
 </script>
 
 <section>
-	<p>message: {message}</p>
+	<p>User is {user.age} years old and their score is {user.score}.</p>
 </section>

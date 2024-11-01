@@ -1,4 +1,4 @@
 export const load = async () => {
-	const content = 'testing content from page.server.ts';
-	return { content };
+	const title = 'sveltekit5-showcase';
+	return { content: title };
 };

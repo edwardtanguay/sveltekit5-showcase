@@ -10,7 +10,7 @@
 </script>
 
 <main class="p-6">
-	<h1 class="text-3xl">sveltekit5-showcase</h1>
+	<h1 class="text-3xl">{$page.data.content}</h1>
 	<p>
 		[<a
 			href="https://github.com/edwardtanguay/sveltekit5-showcase"
@@ -28,10 +28,6 @@
 	<Example title="Ex002" publish={false}>
 		<Ex002DataBehind />
 	</Example>
-
-	{#if PUBLIC_SITE_ENV === 'develop'}
-		<div class="mt-4">{@html $page.data.content}</div>
-	{/if}
 
 	<Example title="Ex003" idCode="Ex003IntervalCount">
 		<Ex003IntervalCount />
