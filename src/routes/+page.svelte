@@ -21,23 +21,25 @@
 		>]
 	</p>
 
-	<Example title="Ex001" idCode="Ex001Button">
-		<Ex001Button />
-	</Example>
+	<div class="flex gap-3 flex-wrap">
+		<Example title="Ex001" idCode="Ex001Button">
+			<Ex001Button />
+		</Example>
 
-	<Example title="Ex002" publish={false}>
-		<Ex002DataBehind />
-	</Example>
+		<Example title="Ex002" publish={false}>
+			<Ex002DataBehind />
+		</Example>
 
-	<Example title="Ex003" idCode="Ex003IntervalCount">
-		<Ex003IntervalCount />
-	</Example>
+		<Example title="Ex003" idCode="Ex003IntervalCount">
+			<Ex003IntervalCount />
+		</Example>
 
-	<Example title="Ex004" idCode="Ex004UpdateArray">
-		<Ex004UpdateArray />
-	</Example>
+		<Example title="Ex004" idCode="Ex004UpdateArray">
+			<Ex004UpdateArray />
+		</Example>
 
-	<Example title="Ex005: Universal Reactivity" idCode="Ex005UniversalReactivity">
-		<Ex005UniversalReactivity />
-	</Example>
+		<Example title="Ex005: Universal Reactivity" idCode="Ex005UniversalReactivity">
+			<Ex005UniversalReactivity />
+		</Example>
+	</div>
 </main>

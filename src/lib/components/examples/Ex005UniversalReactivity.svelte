@@ -5,5 +5,11 @@
 </script>
 
 <section>
-	<p>User is {user.age} years old and their score is {user.score}.</p>
+	<p class="mb-3">User is {user.age} years old and their score is {user.score}.</p>
+	<div class="flex justify-around flex-col">
+	<button class="mb-1" onclick={() => user.age += 1}
+		>increase age</button
+	>
+	<button class="mb-1" onclick={() => user.score += 10}>increase score</button>
+	</div>
 </section>
