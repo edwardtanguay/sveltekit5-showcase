@@ -21,10 +21,7 @@
 		>]
 	</p>
 
-	<Example
-		title="Ex001"
-		url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex001Button.svelte"
-	>
+	<Example title="Ex001" idCode="Ex001Button">
 		<Ex001Button />
 	</Example>
 
@@ -36,21 +33,15 @@
 		<div class="mt-4">{@html $page.data.content}</div>
 	{/if}
 
-	<Example
-		title="Ex003"
-		url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex003IntervalCount.svelte"
-	>
+	<Example title="Ex003" idCode="Ex003IntervalCount">
 		<Ex003IntervalCount />
 	</Example>
 
-	<Example
-		title="Ex004"
-		url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex004UpdateArray.svelte"
-	>
+	<Example title="Ex004" idCode="Ex004UpdateArray">
 		<Ex004UpdateArray />
 	</Example>
 
-	<Example title="Ex005: Universal Reactivity" url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex005UniversalReactivity.svelte">
+	<Example title="Ex005: Universal Reactivity" idCode="Ex005UniversalReactivity">
 		<Ex005UniversalReactivity />
 	</Example>
 </main>

@@ -2,8 +2,10 @@
 	import { PUBLIC_SITE_ENV } from '$env/static/public';
 
 	export let title = 'nnn';
-	export let url = '';
+	export let idCode = '';
 	export let publish = true
+
+	const url = `https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/${idCode}.svelte`
 </script>
 
 {#if PUBLIC_SITE_ENV === 'develop' || publish}
