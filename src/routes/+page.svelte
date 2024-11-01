@@ -50,7 +50,7 @@
 		<Ex004UpdateArray />
 	</Example>
 
-	<Example title="Ex005: Universal Reactivity" url="">
+	<Example title="Ex005: Universal Reactivity" url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex005UniversalReactivity.svelte">
 		<Ex005UniversalReactivity />
 	</Example>
 </main>
