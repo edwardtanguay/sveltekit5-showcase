@@ -42,6 +42,7 @@
 	"dependencies": {
 		"@inlang/paraglide-sveltekit": "^0.11.1",
 		"@libsql/client": "^0.9.0",
-		"drizzle-orm": "^0.33.0"
+		"drizzle-orm": "^0.33.0",
+		"sass": "^1.80.5"
 	}
 }
