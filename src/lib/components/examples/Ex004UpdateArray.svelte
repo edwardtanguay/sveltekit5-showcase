@@ -12,6 +12,7 @@
 </script>
 
 <section class="flex w-[10rem] flex-col items-center">
+	<p>click a button:</p>
 	<button class="mb-1 w-full" onclick={() => (nums = [...nums, getRandomNumber()])}
 		>add to array</button
 	>

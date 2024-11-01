@@ -6,6 +6,7 @@
 	import Ex003IntervalCount from '$lib/components/examples/Ex003IntervalCount.svelte';
 	import Ex004UpdateArray from '$lib/components/examples/Ex004UpdateArray.svelte';
 	import { PUBLIC_SITE_ENV } from '$env/static/public';
+	import Ex005UniversalReactivity from '$lib/components/examples/Ex005UniversalReactivity.svelte';
 </script>
 
 <main class="p-6">
@@ -21,13 +22,13 @@
 	</p>
 
 	<Example
-		title="Test 001"
+		title="Ex001"
 		url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex001Button.svelte"
 	>
 		<Ex001Button />
 	</Example>
 
-	<Example title="Test 002" publish={false}>
+	<Example title="Ex002" publish={false}>
 		<Ex002DataBehind />
 	</Example>
 
@@ -36,16 +37,20 @@
 	{/if}
 
 	<Example
-		title="Test 003"
+		title="Ex003"
 		url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex003IntervalCount.svelte"
 	>
 		<Ex003IntervalCount />
 	</Example>
 
 	<Example
-		title="Test 004"
+		title="Ex004"
 		url="https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/Ex004UpdateArray.svelte"
 	>
 		<Ex004UpdateArray />
+	</Example>
+
+	<Example title="Ex005: Universal Reactivity" url="">
+		<Ex005UniversalReactivity />
 	</Example>
 </main>
