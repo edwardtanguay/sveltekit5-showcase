@@ -2,9 +2,9 @@
 	import Example from '$lib/components/Example.svelte';
 	import Ex001Button from '$lib/components/examples/Ex001Button.svelte';
 	import { page } from '$app/stores';
-	import Ex003IntervalCount from '$lib/components/examples/Ex003IntervalCount.svelte';
-	import Ex004UpdateArray from '$lib/components/examples/Ex004UpdateArray.svelte';
-	import Ex005UniversalReactivity from '$lib/components/examples/Ex005UniversalReactivity.svelte';
+	import Ex002IntervalCount from '$lib/components/examples/Ex002IntervalCount.svelte';
+	import Ex003UpdateArray from '$lib/components/examples/Ex003UpdateArray.svelte';
+	import Ex004UniversalReactivity from '$lib/components/examples/Ex004UniversalReactivity.svelte';
 </script>
 
 <main class="p-6">
@@ -24,16 +24,16 @@
 			<Ex001Button />
 		</Example>
 
-		<Example title="Ex003" idCode="Ex003IntervalCount">
-			<Ex003IntervalCount />
+		<Example title="Ex002" idCode="Ex002IntervalCount">
+			<Ex002IntervalCount />
 		</Example>
 
-		<Example title="Ex004" idCode="Ex004UpdateArray">
-			<Ex004UpdateArray />
+		<Example title="Ex003" idCode="Ex003UpdateArray">
+			<Ex003UpdateArray />
 		</Example>
 
-		<Example title="Ex005: Universal Reactivity" idCode="Ex005UniversalReactivity">
-			<Ex005UniversalReactivity />
+		<Example title="Ex004: Universal Reactivity" idCode="Ex004UniversalReactivity">
+			<Ex004UniversalReactivity />
 		</Example>
 	</div>
 </main>
