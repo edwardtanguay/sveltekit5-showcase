@@ -5,7 +5,6 @@
 	import Ex002DataBehind from '$lib/components/examples/Ex002DataBehind.svelte';
 	import Ex003IntervalCount from '$lib/components/examples/Ex003IntervalCount.svelte';
 	import Ex004UpdateArray from '$lib/components/examples/Ex004UpdateArray.svelte';
-	import { PUBLIC_SITE_ENV } from '$env/static/public';
 	import Ex005UniversalReactivity from '$lib/components/examples/Ex005UniversalReactivity.svelte';
 </script>
 
@@ -21,7 +20,7 @@
 		>]
 	</p>
 
-	<div class="flex gap-3 flex-wrap">
+	<div class="flex flex-wrap gap-3">
 		<Example title="Ex001" idCode="Ex001Button">
 			<Ex001Button />
 		</Example>
