@@ -9,8 +9,8 @@
 </script>
 
 {#if PUBLIC_SITE_ENV === 'develop' || publish}
-	<div class="card mt-6">
-		<header class="card-header text-tertiary-600">{title}</header>
+	<div class="card mt-6 variant-gradient-primary">
+		<header class="card-header text-secondary-300">{title}</header>
 		<section class="p-4"><slot /></section>
 		<footer class="card-footer">
 			{#if url !== ''}

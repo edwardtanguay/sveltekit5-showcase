@@ -16,7 +16,7 @@ const config = {
 		skeleton({
 			themes: {
 				custom: [theme002],
-				preset: ['skeleton', 'modern', 'crimson']
+				preset: ['skeleton', 'modern', 'crimson', 'wintry', 'rocket', 'vintage']
 			}
 		})
 	]

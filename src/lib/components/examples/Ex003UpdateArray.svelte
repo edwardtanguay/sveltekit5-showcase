@@ -12,13 +12,13 @@
 </script>
 
 <section class="flex flex-col flex-wrap items-center w-[20rem]">
-	<button class="mb-1 bg-primary-400 text-secondary-900 btn" onclick={() => (nums = [...nums, getRandomNumber()])}
+	<button class="mb-1 variant-filled-primary btn" onclick={() => (nums = [...nums, getRandomNumber()])}
 		>add to array with spread operator</button
 	>
-	<button class="mb-1 bg-primary-400 text-secondary-900 btn" onclick={addToArray}>add to array with structuredClone</button>
+	<button class="mb-1 variant-filled-primary btn" onclick={addToArray}>add to array with structuredClone</button>
 	{#if nums.length > 0}
-		<p>{nums.join(', ')}</p>
+		<p class="text-warning-500">{nums.join(', ')}</p>
 	{:else}
-		<p class="text-tertiary-800">(empty)</p>
+		<p class="text-warning-800">(empty)</p>
 	{/if}
 </section>

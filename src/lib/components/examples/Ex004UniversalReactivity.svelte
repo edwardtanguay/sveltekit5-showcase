@@ -5,12 +5,12 @@
 </script>
 
 <section class="w-[20rem]">
-	<p class="mb-3">User is {user.age} years old and their score is {user.score}.</p>
+	<p class="mb-3">User is <span class="text-warning-500">{user.age}</span> years old and their score is <span class="text-warning-500">{user.score}</span>.</p>
 	<div class="flex justify-around">
-		<button class="btn mb-1 bg-primary-400 text-secondary-900" onclick={() => (user.age += 1)}
+		<button class="btn mb-1 variant-filled-primary text-secondary-900" onclick={() => (user.age += 1)}
 			>increase age</button
 		>
-		<button class="btn mb-1 bg-primary-400 text-secondary-900" onclick={() => (user.score += 10)}
+		<button class="btn mb-1 variant-filled-primary text-secondary-900" onclick={() => (user.score += 10)}
 			>increase score</button
 		>
 	</div>

@@ -14,9 +14,9 @@
 <section class="flex flex-col items-center w-[20rem]">
 	<p class="mb-3 text-center">This is a button that increases a count by 2 each time it is pressed.</p>
 	<div class="flex gap-5">
-		<button type="button" onclick={increment} class="bg-primary-400 text-secondary-900 btn">Increase Count</button>
-		<div class="text-3xl">
+		<button type="button" onclick={increment} class="btn variant-filled-primary">Increase Count</button>
+		<p class="text-3xl text-warning-500">
 			{double}
-		</div>
+		</p>
 	</div>
 </section>
