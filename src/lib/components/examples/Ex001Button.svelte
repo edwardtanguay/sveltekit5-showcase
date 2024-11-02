@@ -12,8 +12,9 @@
 </script>
 
 <p class="mb-2">This is a button that increases a count by 2 each time it is pressed.</p>
-<div>
-	<button onclick={increment}>
-		count = {double}
-	</button>
+<div class="flex gap-5">
+	<button type="button" onclick={increment} class="variant-filled btn">Increase Count</button>
+	<div class="text-3xl">
+		{double}
+	</div>
 </div>
