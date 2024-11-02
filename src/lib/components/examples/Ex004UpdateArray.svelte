@@ -6,15 +6,19 @@
 	};
 
 	const addToArray = () => {
-		nums.push(getRandomNumber())
+		nums.push(getRandomNumber());
 		nums = structuredClone(nums);
 	};
 </script>
 
-<section class="flex w-[10rem] flex-col items-center">
-	<button class="mb-1 w-full" onclick={() => (nums = [...nums, getRandomNumber()])}
-		>add to array</button
+<section class="flex flex-col items-center">
+	<button class="variant-filled btn mb-1" onclick={() => (nums = [...nums, getRandomNumber()])}
+		>add to array with spread operator</button
 	>
-	<button class="mb-1 w-full" onclick={addToArray}>add to array</button>
-	<p>{nums.join(', ')}</p>
+	<button class="variant-filled btn mb-1" onclick={addToArray}>add to array with structuredClone</button>
+	{#if nums.length > 0}
+		<p>{nums.join(', ')}</p>
+	{:else}
+		<p class="text-gray-500">(empty)</p>
+	{/if}
 </section>
