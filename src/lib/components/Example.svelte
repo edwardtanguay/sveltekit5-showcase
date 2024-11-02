@@ -10,13 +10,13 @@
 
 {#if PUBLIC_SITE_ENV === 'develop' || publish}
 	<fieldset
-		class="mt-5 flex h-fit w-fit flex-col justify-center rounded border border-[#00505783] px-5 pb-3 shadow-md shadow-gray-500"
+		class="mt-5 flex h-fit w-fit flex-col justify-center rounded border border-[#00505783] px-5 pb-3 shadow-md shadow-gray-500 bg-gray-600"
 	>
-		<legend class="font-mono text-[#005057ab]">{title} </legend>
+		<legend class="font-mono font-bold bg-gray-500 py-0 px-1 rounded text-yellow-300">{title} </legend>
 		<slot />
 		{#if url !== ''}
 			<p class="mt-1 flex justify-center font-mono text-xs">
-				<a href={url} target="_blank" class="text-red-600 underline"> view code </a>
+				<a href={url} target="_blank" class="text-green-200 underline"> view code </a>
 			</p>
 		{/if}
 	</fieldset>
