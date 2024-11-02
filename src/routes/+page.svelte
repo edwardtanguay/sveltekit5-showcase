@@ -8,8 +8,8 @@
 </script>
 
 <main class="p-6">
-	<h1 class="text-3xl">{$page.data.content}</h1>
-	<p>
+	<h1 class="text-3xl text-primary-300">{$page.data.content}</h1>
+	<p class="text-tertiary-600">
 		[<a
 			href="https://github.com/edwardtanguay/sveltekit5-showcase"
 			target="_blank"
