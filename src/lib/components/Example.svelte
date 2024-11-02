@@ -3,21 +3,21 @@
 
 	export let title = 'nnn';
 	export let idCode = '';
-	export let publish = true
+	export let publish = true;
 
-	const url = `https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/${idCode}.svelte`
+	const url = `https://github.com/edwardtanguay/sveltekit5-showcase/blob/dev/src/lib/components/examples/${idCode}.svelte`;
 </script>
 
 {#if PUBLIC_SITE_ENV === 'develop' || publish}
-	<fieldset
-		class="mt-5 flex h-fit w-fit flex-col justify-center rounded border border-[#00505783] px-5 pb-3 shadow-md shadow-gray-500 bg-gray-600"
-	>
-		<legend class="font-mono font-bold bg-gray-500 py-0 px-1 rounded text-yellow-300">{title} </legend>
-		<slot />
-		{#if url !== ''}
-			<p class="mt-1 flex justify-center font-mono text-xs">
-				<a href={url} target="_blank" class="text-green-200 underline"> view code </a>
-			</p>
-		{/if}
-	</fieldset>
+	<div class="card mt-6">
+		<header class="card-header text-tertiary-600">{title}</header>
+		<section class="p-4"><slot /></section>
+		<footer class="card-footer">
+			{#if url !== ''}
+				<p class="mt-1 flex justify-center text-xs">
+					<a href={url} target="_blank" class="text-primary-300 underline"> view code </a>
+				</p>
+			{/if}
+		</footer>
+	</div>
 {/if}
