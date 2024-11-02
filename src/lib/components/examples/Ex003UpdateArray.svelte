@@ -11,7 +11,7 @@
 	};
 </script>
 
-<section class="flex flex-col items-center">
+<section class="flex flex-col flex-wrap items-center w-[20rem]">
 	<button class="variant-filled btn mb-1" onclick={() => (nums = [...nums, getRandomNumber()])}
 		>add to array with spread operator</button
 	>
