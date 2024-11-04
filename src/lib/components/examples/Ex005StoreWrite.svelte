@@ -9,5 +9,5 @@
 		on:click={() => user.set({ name: 'Jack', loggedIn: true })}>Login</button
 	>
 	<hr />
-	<p>there are {$numberOfSkills} skills</p>
 {/if}
+<p>there are {$numberOfSkills} skills</p>
