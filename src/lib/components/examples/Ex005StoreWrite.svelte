@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { user } from '../../../stores/userStore';
+	import { user, numberOfSkills } from '../../../stores/userStore';
 </script>
 
 {#if $user}
@@ -8,4 +8,6 @@
 		class="variant-filled-primary btn mb-1 text-secondary-900"
 		on:click={() => user.set({ name: 'Jack', loggedIn: true })}>Login</button
 	>
+	<hr />
+	<p>there are {$numberOfSkills} skills</p>
 {/if}
