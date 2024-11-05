@@ -1,6 +1,7 @@
 <script lang="ts">
 	let nums: number[] = $state([]);
-	const amount = $derived(nums.length)
+	const amount = $derived(nums.length);
+	const sum = $derived(nums.reduce((total, num) => total + num, 0));
 
 	const getRandomNumber = () => {
 		return Math.floor(Math.random() * 100) + 1;
@@ -27,7 +28,8 @@
 		<p class="text-warning-800">(empty)</p>
 	{/if}
 
-	<div class="mt-3 font-mono text-sm text-warning-500 bg-slate-700 py-1 px-2">
+	<div class="mt-3 bg-slate-700 px-2 py-1 font-mono text-sm text-warning-500">
 		<p>Amount: {amount}</p>
+		<p>Sum: {sum}</p>
 	</div>
 </section>
