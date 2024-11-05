@@ -2,6 +2,8 @@
 	let nums: number[] = $state([]);
 	const amount = $derived(nums.length);
 	const sum = $derived(nums.reduce((total, num) => total + num, 0));
+	const max = $derived(Math.max(...nums));
+	const min = $derived(Math.min(...nums));
 
 	const getRandomNumber = () => {
 		return Math.floor(Math.random() * 100) + 1;
@@ -31,5 +33,11 @@
 	<div class="mt-3 bg-slate-700 px-2 py-1 font-mono text-sm text-warning-500">
 		<p>Amount: {amount}</p>
 		<p>Sum: {sum}</p>
+		<p>
+			Max: {#if isFinite(max)}{max}{/if}
+		</p>
+		<p>
+			Min: {#if isFinite(min)}{min}{/if}
+		</p>
 	</div>
 </section>
