@@ -6,6 +6,7 @@
 	import Ex004UniversalReactivity from '$lib/components/examples/Ex004UniversalReactivity.svelte';
 	import Ex005StoreWrite from '$lib/components/examples/Ex005StoreWrite.svelte';
 	import Ex006StoreRead from '$lib/components/examples/Ex006StoreRead.svelte';
+	import Ex007StateDerivedArray from '$lib/components/examples/Ex007StateDerivedArray.svelte';
 </script>
 
 <div class="flex flex-wrap gap-3 -mt-3">
@@ -28,7 +29,12 @@
 	<Example title="Ex005: Svelte Stores" idCode="Ex005StoreWrite">
 		<Ex005StoreWrite/>
 	</Example>
+
 	<Example title="Ex006: Svelte Stores" idCode="Ex006StoreRead">
 		<Ex006StoreRead/>
+	</Example>
+
+	<Example title="Ex007: Update Array with State/Derived" idCode="Ex007StateDerivedArray">
+		<Ex007StateDerivedArray/>
 	</Example>
 </div>
