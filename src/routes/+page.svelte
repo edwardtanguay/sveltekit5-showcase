@@ -40,11 +40,11 @@
 		<Ex007StateDerivedArray />
 	</Example>
 
-	<Example title="Ex008: $state() with get/set" idCode="Ex007StateDerivedArray">
+	<Example title="Ex008: $state() with get/set" idCode="Ex008DollarStateGetSet">
 		<Ex008DollarStateGetSet />
 	</Example>
 
-	<Example title="Ex009: $state() without get/set (simpler)" idCode="Ex007StateDerivedArray">
+	<Example title="Ex009: $state() without get/set (simpler)" idCode="Ex009DollarStateWithoutGetSet">
 		<Ex009DollarStateWithoutGetSet />
 	</Example>
 </div>
