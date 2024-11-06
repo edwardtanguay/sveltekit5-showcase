@@ -9,6 +9,7 @@
 	import Ex007StateDerivedArray from '$lib/components/examples/Ex007StateDerivedArray.svelte';
 	import Ex008DollarStateGetSet from '$lib/components/examples/Ex008DollarStateGetSet.svelte';
 	import Ex009DollarStateWithoutGetSet from '$lib/components/examples/Ex009DollarStateWithoutGetSet.svelte';
+	import Ex010StateArrayPush from '$lib/components/examples/Ex010StateArrayPush.svelte';
 </script>
 
 <div class="-mt-3 flex flex-wrap gap-3">
@@ -46,5 +47,9 @@
 
 	<Example title="Ex009: $state() without get/set (simpler)" idCode="Ex009DollarStateWithoutGetSet">
 		<Ex009DollarStateWithoutGetSet />
+	</Example>
+
+	<Example title="Ex010: State variables with array.push()" idCode="Ex010StateArrayPush">
+		<Ex010StateArrayPush/>
 	</Example>
 </div>

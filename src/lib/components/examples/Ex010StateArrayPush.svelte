@@ -1,0 +1,16 @@
+<script lang="ts">
+	let nums = $state([1, 2, 3, 4, 5]);
+	let total = $derived(nums.reduce((t, n) => t + n));
+
+	const add = () => {
+		nums.push(nums.length + 1);
+	};
+</script>
+
+<section class="flex w-[20rem] flex-col items-center">
+	<div class="flex gap-5">
+		<button type="button" onclick={() => add()} class="variant-filled-primary btn">Add</button>
+	</div>
+	<p class="text-xl mb-3 mt-3 text-warning-500">{nums.join(', ')}</p>
+	<p class="text-xl">total = <span class="text-warning-500">{total}</span></p>
+</section>
