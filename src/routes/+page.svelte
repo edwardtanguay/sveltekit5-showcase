@@ -7,9 +7,11 @@
 	import Ex005StoreWrite from '$lib/components/examples/Ex005StoreWrite.svelte';
 	import Ex006StoreRead from '$lib/components/examples/Ex006StoreRead.svelte';
 	import Ex007StateDerivedArray from '$lib/components/examples/Ex007StateDerivedArray.svelte';
+	import Ex008DollarStateGetSet from '$lib/components/examples/Ex008DollarStateGetSet.svelte';
+	import Ex009DollarStateWithoutGetSet from '$lib/components/examples/Ex009DollarStateWithoutGetSet.svelte';
 </script>
 
-<div class="flex flex-wrap gap-3 -mt-3">
+<div class="-mt-3 flex flex-wrap gap-3">
 	<Example title="Ex001: Interactive Button" idCode="Ex001Button">
 		<Ex001Button />
 	</Example>
@@ -27,14 +29,22 @@
 	</Example>
 
 	<Example title="Ex005: Svelte Stores" idCode="Ex005StoreWrite">
-		<Ex005StoreWrite/>
+		<Ex005StoreWrite />
 	</Example>
 
 	<Example title="Ex006: Svelte Stores" idCode="Ex006StoreRead">
-		<Ex006StoreRead/>
+		<Ex006StoreRead />
 	</Example>
 
 	<Example title="Ex007: Update Array with State/Derived" idCode="Ex007StateDerivedArray">
-		<Ex007StateDerivedArray/>
+		<Ex007StateDerivedArray />
+	</Example>
+
+	<Example title="Ex008: $state() with get/set" idCode="Ex007StateDerivedArray">
+		<Ex008DollarStateGetSet />
+	</Example>
+
+	<Example title="Ex009: $state() without get/set (simpler)" idCode="Ex007StateDerivedArray">
+		<Ex009DollarStateWithoutGetSet />
 	</Example>
 </div>
