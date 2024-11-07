@@ -7,10 +7,10 @@
 </script>
 
 <section class="flex w-[20rem] flex-col items-center">
-	<div class="mb-3">Theme is: {store.theme}</div>
+	<div class="mb-3" style="color: {store.theme === 'dark' ? '#555' : '#bbb'}">Theme is: {store.theme}</div>
 	<div>
 		<button type="button" onclick={() => toggleTheme()} class="variant-filled-primary btn"
-			>Add</button
+			>Toggle Shared Theme</button
 		>
 	</div>
 </section>
