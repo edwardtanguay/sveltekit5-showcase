@@ -1,4 +1,5 @@
 <script lang="ts">
+	import {store} from '../../../stores/store.svelte';
 	let nums = $state([1, 2, 3, 4, 5]);
 	let total = $derived(nums.reduce((t, n) => t + n));
 
@@ -8,6 +9,7 @@
 </script>
 
 <section class="flex w-[20rem] flex-col items-center">
+	<div class="mb-3">Theme is: {store.theme}</div>
 	<div class="flex gap-5">
 		<button type="button" onclick={() => add()} class="variant-filled-primary btn">Add</button>
 	</div>
