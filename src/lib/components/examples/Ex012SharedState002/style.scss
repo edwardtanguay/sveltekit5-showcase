@@ -1,3 +1,17 @@
-form {
-	background-color: red;
+section.ex012 {
+	form {
+		padding: .7rem .7rem .2rem .7rem;
+		border-radius: .5rem;
+		background-color: #555;
+
+		div.row {
+			margin-bottom: .5rem;
+			display: flex;
+			gap: .5rem;
+
+			input {
+				color: #000;
+			}
+		}
+	}
 }

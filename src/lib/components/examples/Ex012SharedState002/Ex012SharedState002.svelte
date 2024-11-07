@@ -7,7 +7,7 @@
 	};
 </script>
 
-<section class="flex w-[20rem] flex-col items-center">
+<section class="ex012 flex w-[20rem] flex-col items-center">
 	<div class="mb-3" style="color: {store.theme === 'dark' ? '#555' : '#bbb'}">
 		Theme is: {store.theme}
 	</div>
@@ -16,11 +16,11 @@
 			>Toggle Shared Theme</button
 		>
 		<form>
-			<div class="mb-2">
+			<div class="row">
 				First Name: <input bind:value={store.currentUser.firstName} />
 			</div>
-			<div class="mb-2">
-				First Name: <input bind:value={store.currentUser.firstName} />
+			<div class="row">
+				Last Name: <input bind:value={store.currentUser.lastName} />
 			</div>
 		</form>
 	</div>
