@@ -10,7 +10,8 @@
 	import Ex008DollarStateGetSet from '$lib/components/examples/Ex008DollarStateGetSet.svelte';
 	import Ex009DollarStateWithoutGetSet from '$lib/components/examples/Ex009DollarStateWithoutGetSet.svelte';
 	import Ex010StateArrayPush from '$lib/components/examples/Ex010StateArrayPush.svelte';
-	import Ex011SharedState001 from '$lib/components/examples/Ex011SharedState001.svelte';
+	import Ex012SharedState002 from '$lib/components/examples/Ex012SharedState002.svelte';
+	import Ex011SharedState001 from '$lib/components/examples/Ex012SharedState002.svelte';
 </script>
 
 <div class="-mt-3 flex flex-wrap gap-3">
@@ -51,10 +52,14 @@
 	</Example>
 
 	<Example title="Ex010: State variables with array.push()" idCode="Ex010StateArrayPush">
-		<Ex010StateArrayPush/>
+		<Ex010StateArrayPush />
 	</Example>
 
 	<Example title="Ex011: Shared State 001" idCode="Ex11SharedState001">
-		<Ex011SharedState001/>
+		<Ex011SharedState001 />
+	</Example>
+
+	<Example title="Ex012: Shared State 002" idCode="Ex12SharedState002">
+		<Ex012SharedState002 />
 	</Example>
 </div>
