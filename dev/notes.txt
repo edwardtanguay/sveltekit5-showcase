@@ -1,2 +1,1 @@
-- .. https://www.youtube.com/watch?v=tC9KSwnczxQ&t=24s
-- integrate Svelte Context and share state between pages
+- .. make rune store 2

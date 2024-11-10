@@ -1,6 +1,6 @@
-export const getStore = () => {
-	let timesOpened = $state(0);
+let timesOpened = $state(0);
 
+export const getStore = () => {
 	return {
 		get timesOpened() {
 			return timesOpened;

@@ -13,6 +13,7 @@
 	import Ex011SharedState001 from '$lib/components/examples/Ex011SharedState001.svelte';
 	import Ex012SharedState002 from '$lib/components/examples/Ex012SharedState002/Ex012SharedState002.svelte';
 	import Ex013RuneStore from '$lib/components/examples/Ex013RuneStore.svelte';
+	import Ex014RuneStore from '$lib/components/examples/Ex014RuneStore.svelte';
 	import { test001 } from '../tools';
 
 	test001();
@@ -69,5 +70,9 @@
 
 	<Example title="Ex013: Rune Store" idCode="Ex013RuneStore">
 		<Ex013RuneStore/>
+	</Example>
+
+	<Example title="Ex014: Rune Store" idCode="Ex014RuneStore">
+		<Ex014RuneStore/>
 	</Example>
 </div>
