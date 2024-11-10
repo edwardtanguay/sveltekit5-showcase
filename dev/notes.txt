@@ -1,3 +1,4 @@
 - x make rune store 2
 - x make count
-- .. do double
+- x do double
+- .. add thunks
