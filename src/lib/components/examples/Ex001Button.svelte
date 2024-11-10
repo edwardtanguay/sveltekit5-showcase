@@ -4,6 +4,7 @@
 
 	$effect(() => {
 		console.log(111, count);
+		$inspect(111)
 	});
 
 	const increment = () => {
