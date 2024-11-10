@@ -5,8 +5,7 @@
 </script>
 
 <section>
-	<p>times opened: {store.timesOpened}</p>
-	<button type="button" onclick={() => store.incrementTimesOpened()} class="variant-filled-primary btn mb-3"
-		>increase</button
-	>
+	<p class="mb-3">times opened: {store.timesOpened}</p>
+	<button type="button" onclick={() => store.decrementTimesOpened()} class="variant-filled-primary btn mb-3">decrease</button>
+	<button type="button" onclick={() => store.incrementTimesOpened()} class="variant-filled-primary btn mb-3">increase</button>
 </section>
