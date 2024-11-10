@@ -12,7 +12,7 @@
 	import Ex010StateArrayPush from '$lib/components/examples/Ex010StateArrayPush.svelte';
 	import Ex011SharedState001 from '$lib/components/examples/Ex011SharedState001.svelte';
 	import Ex012SharedState002 from '$lib/components/examples/Ex012SharedState002/Ex012SharedState002.svelte';
-	import Ex013Store from '$lib/components/examples/Ex013Store.svelte';
+	import Ex013RuneStore from '$lib/components/examples/Ex013RuneStore.svelte';
 	import { test001 } from '../tools';
 
 	test001();
@@ -67,7 +67,7 @@
 		<Ex012SharedState002 />
 	</Example>
 
-	<Example title="Ex013: Store" idCode="Ex013Store">
-		<Ex013Store/>
+	<Example title="Ex013: Rune Store" idCode="Ex013RuneStore">
+		<Ex013RuneStore/>
 	</Example>
 </div>
