@@ -6,6 +6,7 @@ export const getStore = () => {
 			return timesOpened;
 		},
 		incrementTimesOpened: () => timesOpened++,
-		decrementTimesOpened: () => timesOpened--
+		decrementTimesOpened: () => timesOpened--,
+		resetTimesOpened: () => timesOpened = 0
 	};
 };
