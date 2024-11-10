@@ -1,12 +1,12 @@
-let timesOpened = $state(0);
+let count = $state(0);
 
 export const getStore = () => {
 	return {
-		get timesOpened() {
-			return timesOpened;
+		get count() {
+			return count;
 		},
-		incrementTimesOpened: () => timesOpened++,
-		decrementTimesOpened: () => timesOpened--,
-		resetTimesOpened: () => timesOpened = 0
+		incrementCount: () => count++,
+		decrementCount: () => count--,
+		resetCount: () => count = 0
 	};
 };

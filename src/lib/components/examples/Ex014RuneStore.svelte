@@ -5,6 +5,6 @@
 </script>
 
 <section>
-	<p class="mb-3">times opened: {store.timesOpened}</p>
-	<button type="button" onclick={() => store.resetTimesOpened()} class="variant-filled-primary btn mb-3">reset</button>
+	<p class="mb-3">count: <span class="text-warning-500">{store.count}</span></p>
+	<button type="button" onclick={() => store.resetCount()} class="variant-filled-primary btn mb-3">reset</button>
 </section>
