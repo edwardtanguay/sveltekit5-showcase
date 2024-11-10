@@ -1,3 +1,3 @@
 - x make rune store 2
-- .. make count
-- do double
+- x make count
+- .. do double
