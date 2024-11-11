@@ -15,6 +15,7 @@
 	import Ex013RuneStore from '$lib/components/examples/Ex013RuneStore.svelte';
 	import Ex014RuneStore from '$lib/components/examples/Ex014RuneStore.svelte';
 	import Ex015ClassStore001 from '$lib/components/examples/Ex015ClassStore001.svelte';
+	import Ex016ClassStore002 from '$lib/components/examples/Ex016ClassStore002.svelte';
 	import { test001 } from '../tools';
 
 	test001();
@@ -77,7 +78,12 @@
 		<Ex014RuneStore/>
 	</Example>
 
-	<Example title="Ex015: Class Store 001" idCode="Ex015ClassStore001">
+	<!-- class stores don't seem to share state -->
+	<!-- <Example title="Ex015: Class Store 001" idCode="Ex015ClassStore001">
 		<Ex015ClassStore001/>
 	</Example>
+
+	<Example title="Ex016: Class Store 002" idCode="Ex016ClassStore002">
+		<Ex016ClassStore002/>
+	</Example> -->
 </div>

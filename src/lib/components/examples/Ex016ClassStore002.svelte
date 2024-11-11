@@ -17,7 +17,16 @@
 		onclick={() => store.incrementCount()}
 		class="variant-filled-primary btn mb-3">increase</button
 	>
-	{#if store.numberOfSkills > 0}
-		<p>skills have been loaded</p>
+	<button type="button" onclick={() => store.loadSkills()} class="variant-filled-primary btn mb-3"
+		>load skills</button
+	>
+	{#if store.loadingSkills}
+		<p class="mb-3">
+			<span class="text-warning-500">{store.loadingSkills ? 'loading skills...' : ''}</span>
+		</p>
+	{:else}
+		<p class="mb-3">
+			number of skills: <span class="text-warning-500">{store.numberOfSkills}</span>
+		</p>
 	{/if}
 </section>
