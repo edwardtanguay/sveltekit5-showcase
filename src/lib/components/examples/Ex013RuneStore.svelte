@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { getStore } from '../../../stores/runeStore.svelte';
-	import { numberOfSkills } from '../../../stores/userStore';
 
 	const store = getStore();
 </script>
