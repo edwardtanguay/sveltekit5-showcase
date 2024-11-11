@@ -16,9 +16,7 @@
 	import Ex014RuneStore from '$lib/components/examples/Ex014RuneStore.svelte';
 	import Ex015ClassStore001 from '$lib/components/examples/Ex015ClassStore001.svelte';
 	import Ex016ClassStore002 from '$lib/components/examples/Ex016ClassStore002.svelte';
-	import { test001 } from '../tools';
-
-	test001();
+	import Ex017BindElements from '$lib/components/examples/Ex017BindElements.svelte';
 </script>
 
 <div class="-mt-3 flex flex-wrap gap-3">
@@ -63,7 +61,7 @@
 	</Example>
 
 	<Example title="Ex011: Shared State 001" idCode="Ex11SharedState001">
-		<Ex011SharedState001/>
+		<Ex011SharedState001 />
 	</Example>
 
 	<Example title="Ex012: Shared State 002" idCode="Ex12SharedState002">
@@ -71,11 +69,11 @@
 	</Example>
 
 	<Example title="Ex013: Rune Store" idCode="Ex013RuneStore">
-		<Ex013RuneStore/>
+		<Ex013RuneStore />
 	</Example>
 
 	<Example title="Ex014: Rune Store" idCode="Ex014RuneStore">
-		<Ex014RuneStore/>
+		<Ex014RuneStore />
 	</Example>
 
 	<!-- class stores don't seem to share state -->
@@ -86,4 +84,8 @@
 	<Example title="Ex016: Class Store 002" idCode="Ex016ClassStore002">
 		<Ex016ClassStore002/>
 	</Example> -->
+
+	<Example title="Ex017: Bind Elements" idCode="Ex017BindElements">
+		<Ex017BindElements />
+	</Example>
 </div>
