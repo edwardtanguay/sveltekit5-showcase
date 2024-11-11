@@ -1,7 +1,11 @@
 <script lang="ts">
-	const message = 'hello'
+	let inputElement: HTMLInputElement;
+
+	$effect(() => {
+		inputElement.focus();
+	});
 </script>
 
 <section class="w-[13rem]">
-<p>message: {message}</p>	
+	<p><input bind:this={inputElement} /></p>
 </section>

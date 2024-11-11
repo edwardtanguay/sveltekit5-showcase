@@ -1,17 +1,21 @@
 section.ex012 {
 	form {
-		padding: .7rem .7rem .2rem .7rem;
-		border-radius: .5rem;
+		padding: 0.7rem 0.7rem 0.2rem 0.7rem;
+		border-radius: 0.5rem;
 		background-color: #555;
 
 		div.row {
-			margin-bottom: .5rem;
+			margin-bottom: 0.5rem;
 			display: flex;
-			gap: .5rem;
+			gap: 0.5rem;
 
 			input {
 				color: #000;
 			}
 		}
 	}
+}
+
+input {
+	color: #000;
 }
