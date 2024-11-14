@@ -91,6 +91,6 @@
 	</Example>
 
 	<Example title="Ex018: Bind Elements" idCode="Ex018Props">
-		<Ex018Props name="Hans" age={34}/>
+		<Ex018Props name="Hans" age={34} isOnline={true}/>
 	</Example>
 </div>
