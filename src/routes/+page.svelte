@@ -17,6 +17,7 @@
 	import Ex015ClassStore001 from '$lib/components/examples/Ex015ClassStore001.svelte';
 	import Ex016ClassStore002 from '$lib/components/examples/Ex016ClassStore002.svelte';
 	import Ex017BindElements from '$lib/components/examples/Ex017BindElements.svelte';
+	import Ex018Props from '$lib/components/examples/Ex018Props.svelte';
 </script>
 
 <div class="-mt-3 flex flex-wrap gap-3">
@@ -87,5 +88,9 @@
 
 	<Example title="Ex017: Bind Elements" idCode="Ex017BindElements">
 		<Ex017BindElements />
+	</Example>
+
+	<Example title="Ex018: Bind Elements" idCode="Ex018Props">
+		<Ex018Props name="Hans" age={34}/>
 	</Example>
 </div>
