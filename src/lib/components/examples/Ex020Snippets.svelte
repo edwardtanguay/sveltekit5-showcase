@@ -1,5 +1,9 @@
-{#snippet helloWorld()}
-  <span>Hello World</span>
+<script lang="ts">
+	let count = $state(0)
+</script>
+
+{#snippet displayCount()}
+  Count: {count}
 {/snippet}
 
-{@render helloWorld()}
+<p>{@render displayCount()}</p>
