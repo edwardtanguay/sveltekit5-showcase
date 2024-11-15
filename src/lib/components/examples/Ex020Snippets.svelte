@@ -1,7 +1,5 @@
-<script lang="ts">
-	let count = $state(0);
+{#snippet helloWorld()}
+  <span>Hello World</span>
+{/snippet}
 
-	const displayCount = () => `<p>The count is ${count}.</p>`
-</script>
-
-{@render displayCount()}
+{@render helloWorld()}
